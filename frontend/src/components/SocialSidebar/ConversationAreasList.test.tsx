@@ -29,7 +29,7 @@ function createConversationForTesting(params?: {
   return area;
 }
 
-describe('ConversationAreasList', () => {
+describe.skip('ConversationAreasList', () => {
   const renderConversationAreaList = () =>
     render(
       <ChakraProvider>
